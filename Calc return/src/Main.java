@@ -26,7 +26,7 @@ public class Main {
         }
         String[] data = exp.split(regexActions[actionIndex]);
         if (data.length + 1 > 3) {
-            System.err.println("формат математической операции не удовлетворяет заданию - два операнда и один оператор (+, -, /, *)");
+            System.err.println("формат математической операции не удовлетворяет заданию - 2 операнда и 1 оператор (+, -, /, *)");
             System.exit(0);
         }
 
